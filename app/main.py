@@ -57,7 +57,7 @@ def success():
 if __name__=='__main__':
     app.debug=True
     db.create_all()
-    app.run()
+    app.run(port=5000)
 
     FLASK_APP=main.py
 
